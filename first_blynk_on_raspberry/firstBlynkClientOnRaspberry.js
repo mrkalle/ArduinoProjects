@@ -5,7 +5,7 @@
 var BlynkLib = require('blynk-library');
 var http = require('http');
 
-var blynk = new BlynkLib.Blynk('432a7c60ab2f49eb979a5a891109dae4');
+var blynk = new BlynkLib.Blynk('<AUTH KEY>');
 var v1 = new blynk.VirtualPin(1); 
 var v3 = new blynk.VirtualPin(3); 
 var v9 = new blynk.VirtualPin(9);
